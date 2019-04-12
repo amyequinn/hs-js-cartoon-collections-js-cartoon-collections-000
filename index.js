@@ -38,6 +38,7 @@ function findTheCheese(items){
 
 var cheese = ["cheddar", "gouda", "camembert"];
 
+
 for (var i = 0; i<items.length; i++){
 	var cheesePresent = cheese.indexOf(items[i]);
 	if(cheesePresent !== -1){
